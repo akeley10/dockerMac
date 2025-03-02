@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.element img{
+    height: 6rem;
+    margin: 10px;
+    animation: ease-in  4s;
+}
+
+.element img:hover{
+    transform: scale(1.2);
+}
+
+.docker {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
