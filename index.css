@@ -4,7 +4,8 @@
 }
 
 header h2{
-    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -16,9 +17,6 @@ header h2{
     animation: ease-in  4s;
 }
 
-.element img:hover{
-    transform: scale(1.2);
-}
 
 .docker {
     background-color: bisque;
