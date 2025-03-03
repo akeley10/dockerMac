@@ -3,27 +3,35 @@
     padding: 0;
 }
 
+
+
 header h2{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Jost, sans-serif;
     font-size: 40px;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
 
+.docker {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: bisque;
+    border-radius: 10px;
+    max-width: 970px;
+
+}
+
+
+.element{
+    max-width: 100%;
+}
+
 .element img{
-    height: 6rem;
+    height: 60px;
     margin: 10px;
     animation: ease-in  4s;
 }
 
-
-.docker {
-    background-color: bisque;
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 10px;
-}
 
